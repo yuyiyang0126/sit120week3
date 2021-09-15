@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>Homepage</title>
+</head>
+
+<body>
+    <header>
+        <nav id="topnav">
+            <ul>
+                <li>
+                    <a class="current" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="current" href="order.html">Order</a>
+                </li>
+                <li>
+                    <a>Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class ="topcontainer">
+            <div class="showcase-content">
+                <h1>The New Bmw M4</h1>
+            </div>
+        </div>
+
+        <div id="showcase">
+            <div class="container">
+                <div class="showcase-content">
+                    <h1>Designed By Domagoj Dukec</h1>
+                    <p></p>
+                    <a class="btn" href="#" onclick="togglePopup()">Subscribe</a>
+                    
+            </div>
+        </div>
+
+        </div>
+        
+    </header>
+    <section id="index-info" class="bg-dark">
+        <div class ="midcontainer"></div>
+            <div class="showcase-content">
+            </div>
+        </div>
+        <div class="info-img">
+        </div>
+        <div class="info-content">
+            <h2>Heart Of The M4</h2>
+            <p>The M4 is equited with a twin turbocharged 3.0 liters inline-six engine that comes in two potencies. It makes 473 horsepower and 406 lb-ft of torque. The Competition model makes 503 horsepower and 479 lb-ft of torque, but the lone transmission choice is an eight-speed automatic.</p>
+        </div>
+    </section>
+    <div class ="midcontainer"></div>
+    <section id="features">
+        <div class="box bg-black">
+            <i class="fa fa-users fa-3x"></i>
+            <h3>Acceleration</h3>
+            <p>0-60 mph    4.0seconds</p>
+            <p>0-100 kph   4.2seconds</p>
+        </div>
+        <div class="box bg-white">
+            <i class="fa fa-leanpub fa-3x"></i>
+            <h3>Fuel consumption</h3>
+            <p>M4 Competition Coupe       8.8L/100KM </p>
+            <p>M4 Competition Convertible 9.1L/100KM</p>
+        </div>
+        <div class="box bg-black">
+            <i class="fa fa-graduation-cap fa-3x"></i>
+            <h3>Price and Specs</h3>
+            <p>M4 Coupe       From $102900 To $159900</p>
+            <p>M4 Convertible From $135900 To $135900</p>
+        </div>
+        <div class ="midcontainer"></div>
+        <div class="iframe-container">
+            <div style="text-align:center;">
+            <iframe style="display:auto;"
+                width="100%" height="600" src="https://www.youtube.com/embed/rWFbKMSMwwk" title="The new BMW M4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    
+                
+    </section>
+    <div class="clr"></div>
+    <div class ="midcontainer"></div>
+    <div class="hd"><img src="https://media.evo.co.uk/image/private/s--7oqmpvJl--/v1603811004/evo/2020/10/BMW%20M4%20Competition%20x%20Kith-13.jpg" alt=""></div>
+    <footer id="main-footer">
+    </footer>
+
+
+    <div class="popup" id="popup-1">
+                        <div class="overlay"></div>
+                        <div class="content">
+                            <div class="close-btn" onclick="togglePopup()">&times;</div>
+                            <h1> SUBSCRIBE</h1>
+                            <p>Join my mailing list to receive updates on newest Cars</p>
+                        <input type="text" placeholder="Enter E-mail" name="email" required>
+                    <button class="cancelbtn" onclick="togglePopup()">Subscribe</button>
+                        </div>
+                </div>
+</body>
+
+</html>
